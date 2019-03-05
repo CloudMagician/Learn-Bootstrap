@@ -25,15 +25,29 @@ body {
   align-items: center;
   background-color: white;
 }
-.left {
+
+/* login */
+.login-left {
   float: left;
   width: 300px;
   height: 300px;
 }
-.right {
+.login-center {
+  float: left;
+  height: 300px;
+}
+.login-right {
   margin-left: 310px;
   height: 300px;
 }
+.border-line {
+  width: 10px;
+  height: 300px;
+}
+
+/* img */
+
+
 .form-signin {
   width: 100%;
   max-width: 330px;

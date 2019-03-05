@@ -90,3 +90,30 @@ body {
     margin-top: 7rem;
   }
 }
+
+/* div */
+.card-left {
+  float: left;
+  width: 300px;
+  height: 500px;
+}
+.card-right {
+  margin-left: 300px;
+  height: 500px;
+}
+
+/* icon */
+.icon {
+  width: 40px;
+  height: 40px;
+}
+.icon-left {
+  float: left;
+  width: 90px;
+  height: 40px;
+}
+.icon-right {
+  margin-left: 90px;
+  margin-bottom: 40px;
+  height: 40px;
+}
