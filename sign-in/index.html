@@ -20,23 +20,62 @@
     <div class="main">
       <div class="login-left">
         <form class="form-signin">
-          <img class="mb-4" 
-          src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" 
-          alt="" width="72" height="72">
-          <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-          <label for="inputEmail" class="sr-only">Email address</label>
-          <input type="email" id="inputEmail" class="form-control" 
-          placeholder="Email address" required autofocus>
-          <label for="inputPassword" class="sr-only">Password</label>
-          <input type="password" id="inputPassword" class="form-control" 
-          placeholder="Password" required>
-          <div class="checkbox mb-3">
-            <label>
-              <input type="checkbox" value="remember-me"> Remember me
-            </label>
+          <div class="inp">
+            <div class="cleft">
+              <img class="" 
+              src="./src/img/xiaohui1.jpg"
+              alt="" width="230" height="50">
+            </div>
+            <div  class="cright">
+              <p class="font-weight-normal">| 用户登录</p>
+            </div>
           </div>
-          <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-          <p class="mt-5 mb-3 text-muted">&copy; 2019-2020</p>
+          <div class="inp">
+            <select class="custom-select" id="inlineFormCustomSelect">
+              <option selected>大连交通大学</option>
+              <option value="1">吉林大学</option>
+            </select>
+          </div>
+          <div class="inp">
+            <label for="inputEmail" class="sr-only">请输入手机号/邮箱/学号</label>
+            <input type="email" id="inputEmail" class="form-control" 
+                placeholder="请输入手机号/邮箱/学号"
+                aria-label="请输入手机号/邮箱/学号" 
+                required autofocus>
+          </div>
+          <div class="inp">
+            <label for="inputPassword" class="sr-only">请输入密码</label>
+            <input type="password" id="inputPassword" class="form-control" 
+            placeholder="请输入密码"
+            aria-label="请输入密码"
+            required>
+          </div>
+          <div class="inp">
+            <div class="cleft">
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> 七天内免登录
+                </label>
+              </div>
+            </div>
+            <div class="right">
+              <p>忘记密码？</p>
+            </div>
+          </div>
+          <div class="inp">
+            <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+          </div>
+          <div class="inp">
+            <div class="cleft">    
+              <p>
+                有问题请联系 
+                <a href="#">在线客服</a>
+              </p>
+            </div>
+            <div class="right">
+              <a href="#">立即 注册</a>
+            </div>          
+          </div>
         </form>
       </div>
       <div class="login-center">
@@ -45,16 +84,18 @@
         alt="">
       </div>
       <div class="login-right">
-        <div>
+        <div class="kid">
             <img class="featurette-image img-fluid mx-auto" 
-            src="./src/img/health.png"
+            src="./src/img/handcode.png"
             width="100"
             height="80"
             alt="">
         </div>
-        <div>
+        <div class="code">
             <img class="featurette-image img-fluid mx-auto" 
-            src="./src/img/code.png" 
+            src="./src/img/code.png"
+            width="200"
+            height="200"
             alt="">
         </div>
         <div>

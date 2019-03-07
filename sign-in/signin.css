@@ -22,6 +22,8 @@ body {
   padding-bottom: 40px;
   padding-left: 40px;
   padding-right: 40px;
+  width: 900px;
+  height: 600px;
   align-items: center;
   background-color: white;
 }
@@ -29,39 +31,67 @@ body {
 /* login */
 .login-left {
   float: left;
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 600px;
 }
 .login-center {
   float: left;
-  height: 300px;
+  height: 600px;
 }
 .login-right {
-  margin-left: 310px;
-  height: 300px;
+  margin-left: 570px;
+  height: 600px;
+  width: 200px;
 }
 .border-line {
   width: 10px;
-  height: 300px;
+  height: 600px;
 }
 
 /* img */
+.kid {
+  background-image: url(./src/img/health.png);
+  background-repeat:no-repeat; 
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
+  padding-top: 90px;
+  margin-left: 50px;
+  width: 100px;
+  height: 110px;
+}
 
+.code {
+  margin-bottom: 60px;
+}
+
+/* input */
+.inp {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.cleft {
+  float: left;
+  width: 180px;
+  height: 100%;
+}
+
+.cright {
+  margin-left: 200px;
+  height: 100%;
+}
 
 .form-signin {
   width: 100%;
-  max-width: 330px;
-  padding: 15px;
+  max-width: 400px;
   margin: 0 auto;
 }
-.form-signin .checkbox {
-  font-weight: 400;
-}
+
 .form-signin .form-control {
   position: relative;
   box-sizing: border-box;
   height: auto;
-  padding: 10px;
   font-size: 16px;
 }
 .form-signin .form-control:focus {
