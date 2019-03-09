@@ -23,7 +23,7 @@
           <div class="inp">
             <div class="cleft">
               <img class="" 
-              src="./src/img/xiaohui1.jpg"
+              src="./src/img/banner.png"
               alt="" width="230" height="50">
             </div>
             <div  class="cright">
@@ -32,19 +32,17 @@
           </div>
           <div class="inp">
             <select class="custom-select" id="inlineFormCustomSelect">
-              <option selected>大连交通大学</option>
-              <option value="1">吉林大学</option>
+              <option selected>计算机学院</option>
+              <option value="1">软件学院</option>
             </select>
           </div>
           <div class="inp">
-            <label for="inputEmail" class="sr-only">请输入手机号/邮箱/学号</label>
             <input type="email" id="inputEmail" class="form-control" 
-                placeholder="请输入手机号/邮箱/学号"
-                aria-label="请输入手机号/邮箱/学号" 
+                placeholder="请输入邮箱"
+                aria-label="请输入邮箱" 
                 required autofocus>
           </div>
           <div class="inp">
-            <label for="inputPassword" class="sr-only">请输入密码</label>
             <input type="password" id="inputPassword" class="form-control" 
             placeholder="请输入密码"
             aria-label="请输入密码"
@@ -99,9 +97,46 @@
             alt="">
         </div>
         <div>
-            <p class="lead">扫码下载<a href="#">高校邦App</a>移动学习新体验</p>
+            <p class="lead">扫码下载<a href="#">iOS Club App</a>加入我们行列</p>
         </div>
       </div>
     </div>
+    
+    <!--模态框
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">输入错误：</h4>
+          </div>
+          <div class="modal-body">
+            <p>所输入手机号/邮箱/学号不合规范</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var inputVar = document.getElementById("inputEmail");
+      function f_validate(){
+        var inputStr = inputVar.value;
+        var re = /^1[35789]\d{9}$/;
+        var reg =/^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$/;//邮箱正则表达式 
+        if(re.test(inputStr) || reg.test(inputStr)) {
+          return true;
+        } else {
+          $('#myModal').modal('show')
+          return false;
+        }
+      }
+    </script>
+    <script src="../js/jquery-3.1.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    -->
   </body>
 </html>
